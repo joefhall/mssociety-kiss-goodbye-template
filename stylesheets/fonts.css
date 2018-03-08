@@ -36,3 +36,31 @@
   src: url("https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/1692/31F53D_0_0.eot?v=1472056061000");
   src: url("https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/1692/31F53D_0_0.eot?v=1472056061000?#iefix") format("embedded-opentype"), url("https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/1692/31F53D_0_0.woff2?v=1472056067000") format("woff2"), url("https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/1692/31F53D_0_0.woff?v=1472056065000") format("woff"), url("https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/1692/31F53D_0_0.ttf?v=1472056063000") format("truetype");
 }
+
+/*
+Font: 		Yorkshire Brush Script
+Style: 		Regular
+URL: 		https://www.youworkforthem.com/font/T6306/yorkshire
+Foundry: 	Hustle Supply Co.
+Foundry: 	https://www.youworkforthem.com/designer/504/hustle-supply-co
+Copyright:	2016
+Version: 	17
+Created:	March 22, 2016
+License: 	https://www.youworkforthem.com/font-license 
+License: 	The WebFont(s) listed in this document must follow the YouWorkForThem
+			WebFont license rules. All other parties are strictly restricted 
+			from using the WebFonts(s) listed without a purchased license. 
+			All details above must always remain unaltered and visible in your CSS.
+*/
+
+@font-face {
+	font-family: 'YorkshireBrushScript-Regular';
+	src: url('../fonts/yorkshire-brush-script.eot');
+	src: url('../fonts/yorkshire-brush-script.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/yorkshire-brush-script.woff2') format('woff2'),
+	     url('../fonts/yorkshire-brush-script.woff') format('woff'),
+	     url('../fonts/yorkshire-brush-script.ttf') format('truetype'),
+	     url('../fonts/yorkshire-brush-script.svg#youworkforthem') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
