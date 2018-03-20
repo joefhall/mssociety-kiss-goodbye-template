@@ -723,3 +723,117 @@ ul.share-links .twitter span.icon {
   .picker-element{left:-99999px}
   .picker.disabled{-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"}
 }
+
+
+#main .en__field__error {
+    color: #fa0000;
+    font-weight: bold;
+}
+
+#main .en__mandatory > label::after {
+    content: " *";
+    color: #aa0000;
+}
+
+ #main button {
+    border: 5px solid #ef662f;
+}
+
+#main button:hover {
+    border: 5px solid #ef662f;
+    background: #ffffff;
+    color: #ef662f;
+}
+
+#main .en__field__label {
+    width: 100%;
+}
+
+#main .en__field__input--radio{
+
+    display: none;
+}
+
+@media screen and (min-width: 576px) {
+    .en__component--formblock {
+        max-width: 560px;
+        margin: 0 auto;
+    }
+}
+
+.en__field__element--text, .en__field__element--textarea, .en__field__element--select, .en__field__element--splitselect, .en__field__element--splittext, .en__field__element--tripletext, .en__field__element--tripleselect, .en__field__element--checkbox, .en__field__element--radio, .en__field__element--password, .en__field__element--calendar {
+    display: inline-block;
+    width: 100%;
+}
+
+#main .en__field__input--textarea {
+    height: 100px;
+    width: 100%;
+}
+
+#en__field_supporter_postcode {
+    width: 200px;
+}
+
+#main .en__submit button {
+    margin-left: 1px;
+}
+
+.pb input[type="text"],
+.pb input[type="date"],
+.pb textarea,
+.pb select.en__field__input--select,
+.pb fieldset{
+    
+    width: 100%;
+}
+   
+   
+   /* ================================== */
+/* =     REPLACEMENT CHECKBOX       = */
+/* ================================== */
+/* If you want to style standard checkboxes, then hide the check boxes and 
+/* add your own replacements - these five rules do this */
+/* Hide checkboxes */
+.pb .en__field__input--checkbox {
+    display: none;
+}
+.pb .en__field__element--checkbox .en__field__item {
+    position: relative;
+}
+.pb .en__field--checkbox .en__field__label--item {
+    width: 100%;
+    padding-left: 38px;
+}
+.pb .en__field--checkbox .en__field__label {
+    cursor: pointer;
+}
+
+/* Add replacement tick box */
+.pb input[type=checkbox] + label:before {
+    content:"";
+     background-color: #fff;
+    height: 1.45rem;
+    width: 1.45rem;
+    border: .1rem solid #060606;
+
+    border-radius: .3rem;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+/* Replacement tick box - checked */
+.pb input[type=checkbox]:checked + label:before {
+    background-position: center center;
+    background-repeat: no-repeat;*/
+    content: "✓";
+} 
+
+.picker .picker-handle {
+    float: left;
+}
+
+.picker.picker-checkbox.checked .picker-flag:before{
+    font-size: 100% !important;
+}
