@@ -1,3 +1,103 @@
+html, body {
+    font-family: "Open Sans", Helvetica, Arial, sans-serif !important;
+}
+html:root {
+    --font-family-sans-serif: "Open Sans", Helvetica, Arial, sans-serif !important;
+}
+a {
+    color: #de221f;
+    text-decoration: underline;
+}
+a:hover {
+    color: black !important;
+}
+.border-top {
+    border-top: 1px solid #dedede !important;
+}
+.border-bottom {
+    border-bottom: 1px solid #dedede !important;
+}
+.border-left {
+    border-left: 1px solid #dedede !important;
+}
+.border-right {
+    border-right: 1px solid #dedede !important;
+}
+.btn {
+    border-radius: 2rem;
+}
+.text-red {
+    color: #de221f;
+}
+.bg-red {
+    background-color: #de221f;
+}
+.handwriting {
+    font-family: "YorkshireBrushScript-Regular", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.h0-5 {
+    font-size: 3.5rem;
+}
+.h2-5 {
+    font-size: 2.5rem;
+}
+.h3-override {
+    font-size: 1.75rem !important;
+}
+.display-2 {
+    line-height: 1;
+}
+.display-3 {
+    line-height: 1;
+}
+@media (max-width: 576px) {
+    .display-2 {
+        font-size: 4rem;
+    }
+    .display-3 {
+        font-size: 2.5rem;
+        line-height: 1.2;
+    }
+}
+.underline {
+    text-decoration: underline;
+}
+.no-underline {
+    text-decoration: none;
+}
+.hand {
+    cursor: pointer;
+}
+@media (max-width: 992px) {
+    .no-pt-below-lg {
+        padding-top: 0 !important;
+    }
+}
+.bg-1-register {
+    background-image: url("https://joefhall.github.io/mssociety-kiss-goodbye-template/images/bg-1-register.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+}
+@media (max-width: 992px) {
+    .bg-1-register {
+        background-image: none;
+    }
+}
+.bg-3-start {
+    background-image: url("https://joefhall.github.io/mssociety-kiss-goodbye-template/images/bg-3-start.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    padding-bottom: 350px !important;
+}
+@media (max-width: 992px) {
+    .bg-3-start {
+        background-image: none;
+        padding-bottom: 0 !important;
+    }
+}
+
 .eaLeftColumnContent,
 .eaRightColumnContent {
   width: 88%;
