@@ -48,7 +48,7 @@ a:hover {
     line-height: 1;
 }
 .display-3 {
-    line-height: 1;
+    line-height: 1.1;
 }
 @media (max-width: 576px) {
     .display-2 {
