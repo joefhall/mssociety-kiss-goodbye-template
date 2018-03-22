@@ -225,6 +225,10 @@ button:hover, a.button:hover {
     border-color: #bd2130;
 }
 
+a.share-button {
+  font-size: 1.3rem !important;
+}
+
 .ui-body-o a.button:hover,
 .ui-body-o a.button:focus {
   background-position: right bottom;
